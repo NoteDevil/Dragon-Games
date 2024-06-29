@@ -1,0 +1,45 @@
+{
+  "name": "nextjs-ts-steam-auth-iron-session",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run client_dev\" \"npm run server_dev\"",
+    "client_dev": "next dev -p 3000",
+    "server_dev": "docker-compose up",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.1.0",
+    "@nextui-org/react": "^2.2.9",
+    "@prisma/client": "^5.9.1",
+    "@types/gamedig": "^5.0.0",
+    "@types/node": "18.11.17",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.9",
+    "axios": "^1.6.7",
+    "axios-hooks": "^5.0.2",
+    "embla-carousel-react": "^8.0.0-rc22",
+    "eslint": "8.30.0",
+    "eslint-config-next": "13.1.0",
+    "framer-motion": "^11.0.3",
+    "gamedig": "^5.0.0-beta.2",
+    "ioredis": "^5.4.1",
+    "iron-session": "^6.3.1",
+    "next": "^14.2.4",
+    "next-themes": "^0.2.1",
+    "node-steam-openid": "^1.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "swr": "^2.0.0",
+    "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "@types/node-steam-openid": "^1.0.0",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "prisma": "^5.9.1",
+    "tailwindcss": "^3.4.1"
+  }
+}
